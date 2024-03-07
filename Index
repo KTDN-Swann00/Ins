@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="Tu Instituto Online" name="author">
+    <meta content="Cursos de HTML" name="description">
+    <meta content="html, cabeceras, etiquetas, estilos, párrafos" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+     <!-- Este link sirve para poner el favicon i el de abajo para conectar el css a la pagina -->
+    <link rel="icon" href="https://tse3.mm.bing.net/th?id=OIP.aIF73z-9X7D0I72lYxgS-wHaHa&pid=Api&P=0&h=180" type="image/jpeg">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body style="background-color: black;" id="arriba">
+    <div class="typing-container">
+        <span id="typing-text"></span><span id="cursor"></span>
+      </div>
+      
+        <script src="script.js"></script>
+    <nav>
+         <!-- Esto son los codigos para cambiar de pagina -->
+        <header>
+            <button><a href="Informacio.html">Info</a></button>
+            <button><a href="Ampa.html">Ampa</a></button>
+            <button><a href="../Pagina web/Institut.html">Institut</a></button>
+            <button><a href="Inscripcion.html">Inscripcion</a></button>
+            <button><a href="https://login.ieduca.com/">Internet del centre</a></button>
+            <button><a href="Classroom.html">Classroom</a></button>
+        </header>
+    </nav>
+   
+    
+   <p ><img src="https://firesvirtuals.cat/wp-content/uploads/2021/04/logoINSCastello-Escola-Nautica-INS-Castello-dEmpuries.gif" width="80%" height="80%"></p>
+   <!--Esto es para la barra inferior-->
+   <style>
+    footer {
+        background-color: #333; 
+        color: white; 
+        text-align: center; 
+        padding: 10px 0; 
+        position: fixed; 
+        left: 0; 
+        bottom: 0; 
+        width: 100%; 
+    }
+</style>
+
+ <!-- Esto sirve para que el fondo quede degradado -->
+<style>
+    body {
+        background: linear-gradient(to bottom, black, gray); 
+        margin: 0; 
+        padding: 0; 
+    }
+
+    
+    .content {
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+</style>
+
+
+
+
+
+<p>Institut castello d'Empuries</p>
+<p>C/ Rentador, 6</p>
+<p>17486 Castelló d'Empúries</p>
+<p>+34 972 25 07 68 .</p>
+<p>inscastellodempuries@gmail.com</p>
+ <!-- Estos codigo sirven para ver donde se localiza el instituto i el otro para ir arriba de la pajina -->
+<p><a style="color: black;" href="https://www.google.es/maps/place/INS+Castell%C3%B3+d'Emp%C3%BAries/@42.2570873,3.079984,17z/data=!3m1!4b1!4m6!3m5!1s0x12ba8a15b2663edf:0x89e9de8a89301e3c!8m2!3d42.2570873!4d3.079984!16s%2Fg%2F11b6dp1hnv?entry=ttu">Mapa</a></p>
+<p><a style="color: black;" href="#arriba">Volver arriba</a></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Esto sirve para la barra inferior-->
+<footer>
+    <p>&copy; 2024 INS Castelló d'Empúries</p>
+</footer>
+</body>
+</html>
